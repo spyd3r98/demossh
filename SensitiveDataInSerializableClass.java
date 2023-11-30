@@ -10,6 +10,7 @@ public class SensitiveDataInSerializableClass implements Serializable
     protected void setPassword(String password)
     {
         passwordHash = password;
+
     }
 
     protected String getPassword()
@@ -35,6 +36,8 @@ public class SensitiveDataInSerializableClass implements Serializable
         }
     }
     public void printOutput(){
+		System.out.println("Hello");
+		System.out.println("Hello");
 		System.out.println("Hello");
 		System.out.println("Hello");
 		System.out.println("Hello");
