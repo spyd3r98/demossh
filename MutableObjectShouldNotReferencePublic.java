@@ -1,7 +1,7 @@
 package javacodechecker;
 
 public class MutableObjectShouldNotReferencePublic {
-    
+    //added one line 
     public static final String[] a = {"green","yellow","red","orange","purple"};
 
     
