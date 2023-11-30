@@ -34,8 +34,9 @@ public class SensitiveDataInSerializableClass implements Serializable
 
             }
         }
-    }
+    }		
     public void printOutput(){
+		System.out.println("Added new line for now");
 		System.out.println("Hello");
 		System.out.println("Hello");
 		System.out.println("Hello");
