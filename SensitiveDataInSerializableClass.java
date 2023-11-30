@@ -1,6 +1,7 @@
 package javacodechecker;
 
 import java.io.Serializable;
+
 //added at 2:45
 // EMB-ISSUE: CodeIssueNames.SENSITIVE_DATA_IN_SERIALIZABLE_CLASS
 public class SensitiveDataInSerializableClass implements Serializable
@@ -30,6 +31,7 @@ public class SensitiveDataInSerializableClass implements Serializable
                 try
                 {
                     connection.close();
+		    System.out.println("Hello added a new Line");
                 }
 
             }
