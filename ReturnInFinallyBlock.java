@@ -88,6 +88,9 @@ public class ReturnInFinallyBlock {
         catch(IllegalArgumentException exceptIllegalArgument)
         {
             IO.writeLine("preventing incidental issues");
+        }catch(Exception e)
+        {
+            //this is added today
         }
         finally
         {
