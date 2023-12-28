@@ -45,6 +45,8 @@ public class ReturnInFinallyBlock {
                 return hello;
             System.out.println("Hello");
         }
+	    try{}
+	    catch(Exception e){}
     }
 
 
