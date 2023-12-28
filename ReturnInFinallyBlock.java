@@ -47,6 +47,9 @@ public class ReturnInFinallyBlock {
         }
 	    try{}
 	    catch(Exception e){}
+	    //28_dec-2023
+	    try{}
+	    catch(IOException e){}
     }
 
 
