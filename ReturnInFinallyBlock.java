@@ -50,6 +50,9 @@ public class ReturnInFinallyBlock {
 	    //28_dec-2023
 	    try{}
 	    catch(IOException e){}
+	    //18_Jan-2024
+	    try{}
+	    catch(IOException e){}
     }
 
 
